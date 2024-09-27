@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E74A9;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+}
+
+nav>img {
+    width: 400px;
+}
+
+nav>p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    height: 100vh;
+    margin: 10px;
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria>img {
+    width: 80%;
+    margin: 10px;
+}
+
+.ogloszenia {
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.ogloszenia>h1 {
+    font-size: 45px;
+}
+
+.ogloszenia>p {
+    font-size: 25px;
+}
+
+.klasy {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+}
+
+.plan>table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+td,
+th {
+    padding: 5px 15px;
+    border-left: 1px solid blue;
+}
+
+th {
+    border-bottom: 1px solid blue;
+    background-color: #88d1ff;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+.wyswietlanieGodziny {
+    text-align: center;
+    margin: 15px;
+    font-size: 50px;
+}
+
+#lekcjaPrzerwa, #zostalo {
+    font-weight: bold;
+}
+
