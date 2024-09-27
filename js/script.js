@@ -63,7 +63,7 @@ function updateSchedule() {
 
             // Oblicz, ile czasu zostało do końca bieżącej lekcji/przerwy
             const remainingMinutes = endMinutes - currentMinutes;
-            document.getElementById('zostalo').textContent = `${remainingMinutes} minut`;
+            document.getElementById('zostalo').textContent = `${remainingMinutes} min.`;
 
             break;
         }
